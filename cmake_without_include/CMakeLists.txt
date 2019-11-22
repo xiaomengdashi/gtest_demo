@@ -22,5 +22,5 @@ message("编译后可执行程序目录: " ${EXECUTABLE_OUTPUT_PATH})
 message("编译后库程序文件目录: " ${LIBRARY_OUTPUT_PATH})
 
 add_subdirectory(src)
-add_subdirectory(uni)
+add_subdirectory(unittest)
  
