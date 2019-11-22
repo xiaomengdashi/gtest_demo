@@ -1,9 +1,0 @@
-/Users/kolane/Desktop/gtest_demo/cmake_with_static_gtest/build/CMakeFiles/rebuild_cache.dir
-/Users/kolane/Desktop/gtest_demo/cmake_with_static_gtest/build/CMakeFiles/edit_cache.dir
-/Users/kolane/Desktop/gtest_demo/cmake_with_static_gtest/build/src/CMakeFiles/rebuild_cache.dir
-/Users/kolane/Desktop/gtest_demo/cmake_with_static_gtest/build/src/CMakeFiles/edit_cache.dir
-/Users/kolane/Desktop/gtest_demo/cmake_with_static_gtest/build/src/CMakeFiles/gtest_simple_lib.dir
-/Users/kolane/Desktop/gtest_demo/cmake_with_static_gtest/build/src/CMakeFiles/gtest_simple_run.dir
-/Users/kolane/Desktop/gtest_demo/cmake_with_static_gtest/build/unittest/CMakeFiles/rebuild_cache.dir
-/Users/kolane/Desktop/gtest_demo/cmake_with_static_gtest/build/unittest/CMakeFiles/edit_cache.dir
-/Users/kolane/Desktop/gtest_demo/cmake_with_static_gtest/build/unittest/CMakeFiles/gtest_simple_test.dir
