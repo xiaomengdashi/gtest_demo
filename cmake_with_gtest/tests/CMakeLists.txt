@@ -1,2 +1,0 @@
-ADD_EXECUTABLE(linklist_test linklist_test.cpp)
-TARGET_LINK_LIBRARIES(linklist_test demo)
