@@ -1,23 +1,15 @@
-# 工程名
-set (PROJECT_NAME gtest-demo)
-project(${PROJECT_NAME})
+cmake_minimum_required(VERSION 3.14)
 
-set(CMAKE_CXX_STANDARD 11) # Mac下需要指定C++标准
- 
-cmake_minimum_required(VERSION 3.1.0)
+project(gtestsimple)
 
-# 需包含的头文件
-include_directories(
-    ${PROJECT_SOURCE_DIR}
-    ./googletest-1.10.0/include
-    ./googletest-1.10.0
-    .
-)
+set(CMAKE_CXX_STANDARD 14)
 
-# 需包含的库文件
-link_directories(
-    ./googletest-1.10.0/lib
-    )
+#生成的可执行文件所在目录，PROJECT_BINARY_DIR即为外部编译目录，这里即为build目录
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 
-add_executable(add_test add_test.cpp)
-target_link_libraries(add_test gtest gtest_main)
+#生成的库文件所在目录
+set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+
+add_subdirectory(src)
+
+add_subdirectory(unittest)
