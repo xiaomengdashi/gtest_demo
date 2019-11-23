@@ -1,5 +1,5 @@
 # 工程名
-set (PROJECT_NAME gtest-demo)
+set(PROJECT_NAME demo)
 PROJECT(${PROJECT_NAME})
 
 set(CMAKE_CXX_STANDARD 11) # Mac下需要指定C++标准

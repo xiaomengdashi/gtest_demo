@@ -1,5 +1,3 @@
-project(demo)
-
 # 需包含的头文件目录
 include_directories(${PROJECT_SOURCE_DIR})
 

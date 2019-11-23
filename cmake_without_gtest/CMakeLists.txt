@@ -1,19 +1,18 @@
-#工程名
-project(demo)
+# 工程名
+set(PROJECT_NAME demo)
+PROJECT(${PROJECT_NAME})
 
-#最低版本号
 cmake_minimum_required(VERSION 3.0)
-
 set(CMAKE_CXX_STANDARD 11)
 
 #头文件目录
 include_directories(
 	${PROJECT_SOURCE_DIR}/include
-	/usr/local/incluide/
+	/usr/local/include/
 )
 
 #链接库目录
-include_directories(
+link_directories(
 	/usr/local/lib/
 )
 

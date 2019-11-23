@@ -1,5 +1,3 @@
-project(demo)
-
 #将文件名赋值给变量DEMO_SRCS
 set(DEMO_SRCS
     add.cpp
