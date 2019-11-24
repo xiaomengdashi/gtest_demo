@@ -17,8 +17,8 @@
   - libgtest_main.a 为 单元测试的main函数入口，可以在单元测试中自己写，也可以链接该库
 
 - 系统目录下安装gtest
-  - sudo cp -a include/gtest /usr/include
-  - sudo cp -a lib/libgtest_main.a /lib/libgtest.a  /usr/local/lib/
+  - sudo cp -a include/gtest /usr/local/include
+  - sudo cp -a lib/libgtest_main.a lib/libgtest.a  /usr/local/lib/
   - sudo ldconfig -v | grep gtest   //查询是否链接成功
   - 如果看到下述输出，则表示成功
   ```
